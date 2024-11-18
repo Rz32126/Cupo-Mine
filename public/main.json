@@ -1,0 +1,341 @@
+[
+    {
+      "_id": "1",
+      "brand_name": "GadgetHub",
+      "rating": 4.6,
+      "description": "GadgetHub offers cutting-edge gadgets and accessories for tech enthusiasts.",
+      "brand_logo": "https://example.com/logos/gadgethub.png",
+      "coupons": [
+        {
+          "coupon-code": "GADGET20",
+          "description": "Save 20% on select gadgets",
+          "expiry-date": "2024-12-15",
+          "condition": "Valid on selected items only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "FREESHIPGADGET",
+          "description": "Free shipping on all orders over $75",
+          "expiry-date": "2024-11-30",
+          "condition": "No minimum required",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop-Link": "https://gadgethub.com",
+      "category": "Electronics",
+      "isSaleOn": true
+    },
+    {
+      "_id": "2",
+      "brand_name": "CozyHome",
+      "rating": 4.3,
+      "description": "CozyHome offers premium bedding, furniture, and home accessories to make your home truly cozy.",
+      "brand_logo": "https://example.com/logos/cozyhome.png",
+      "coupons": [
+        {
+          "coupon-code": "COZY15",
+          "description": "15% off on all bedding products",
+          "expiry-date": "2024-11-10",
+          "condition": "Valid on bedding items only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "FREEBEDS",
+          "description": "Free pillow with any bed purchase over $200",
+          "expiry-date": "2024-12-01",
+          "condition": "Minimum purchase of $200 required",
+          "coupon_type": "Gift"
+        }
+      ],
+      "shop-Link": "https://cozyhome.com",
+      "category": "Home & Furniture",
+      "isSaleOn": false
+    },
+    {
+      "_id": "3",
+      "brand_name": "OutdoorsPro",
+      "rating": 4.8,
+      "description": "OutdoorsPro is your go-to destination for outdoor gear, camping equipment, and adventure essentials.",
+      "brand_logo": "https://example.com/logos/outdoorspro.png",
+      "coupons": [
+        {
+          "coupon-code": "CAMP10",
+          "description": "Get 10% off on camping gear",
+          "expiry-date": "2024-11-25",
+          "condition": "Valid on camping gear only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "FREESHIPOUTDOORS",
+          "description": "Free shipping on all orders over $50",
+          "expiry-date": "2024-11-30",
+          "condition": "No minimum order required",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop-Link": "https://outdoorspro.com",
+      "category": "Sports & Outdoors",
+      "isSaleOn": true
+    },
+    {
+      "_id": "4",
+      "brand_name": "SmartFoods",
+      "rating": 4.2,
+      "description": "SmartFoods brings healthy snacks, organic foods, and meal kits to your door.",
+      "brand_logo": "https://example.com/logos/smartfoods.png",
+      "coupons": [
+        {
+          "coupon-code": "SMART10",
+          "description": "Save 10% on your first subscription",
+          "expiry-date": "2024-12-01",
+          "condition": "For new customers only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "FREESNACKS",
+          "description": "Free snack box with every order over $40",
+          "expiry-date": "2024-11-20",
+          "condition": "Valid on orders over $40",
+          "coupon_type": "Gift"
+        }
+      ],
+      "shop-Link": "https://smartfoods.com",
+      "category": "Food & Drink",
+      "isSaleOn": false
+    },
+    {
+      "_id": "5",
+      "brand_name": "KidsJoy",
+      "rating": 4.4,
+      "description": "KidsJoy offers educational toys, games, and books for children of all ages.",
+      "brand_logo": "https://example.com/logos/kidsjoy.png",
+      "coupons": [
+        {
+          "coupon-code": "JOY15",
+          "description": "15% off all educational toys",
+          "expiry-date": "2024-12-10",
+          "condition": "Valid on educational toys only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "FREESHIPKIDS",
+          "description": "Free shipping on orders over $25",
+          "expiry-date": "2024-11-30",
+          "condition": "No minimum order required",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop-Link": "https://kidsjoy.com",
+      "category": "Toys & Games",
+      "isSaleOn": true
+    },
+    {
+      "_id": "6",
+      "brand_name": "BeautyGlow",
+      "rating": 4.5,
+      "description": "BeautyGlow offers high-quality skincare, makeup, and beauty products to make you shine.",
+      "brand_logo": "https://example.com/logos/beautyglow.png",
+      "coupons": [
+        {
+          "coupon-code": "GLOW25",
+          "description": "Get 25% off skincare products",
+          "expiry-date": "2024-11-30",
+          "condition": "Valid on skincare products only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "BEAUTYFREESHIP",
+          "description": "Free shipping on orders above $50",
+          "expiry-date": "2024-12-05",
+          "condition": "No minimum order required",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop-Link": "https://beautyglow.com",
+      "category": "Beauty",
+      "isSaleOn": false
+    },
+    {
+      "_id": "7",
+      "brand_name": "AutoStyle",
+      "rating": 4.1,
+      "description": "AutoStyle offers automotive accessories, car parts, and tools for every car enthusiast.",
+      "brand_logo": "https://example.com/logos/autostyle.png",
+      "coupons": [
+        {
+          "coupon-code": "AUTO10",
+          "description": "10% off on all car accessories",
+          "expiry-date": "2024-12-01",
+          "condition": "Valid on accessories only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "FREESHIPAUTO",
+          "description": "Free shipping on orders over $100",
+          "expiry-date": "2024-11-30",
+          "condition": "Valid on orders above $100",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop-Link": "https://autostyle.com",
+      "category": "Automotive",
+      "isSaleOn": true
+    },
+    {
+      "_id": "8",
+      "brand_name": "PetPals",
+      "rating": 4.9,
+      "description": "PetPals offers everything for your furry friends, from food and toys to grooming supplies.",
+      "brand_logo": "https://example.com/logos/petpals.png",
+      "coupons": [
+        {
+          "coupon-code": "PALS15",
+          "description": "15% off pet food and accessories",
+          "expiry-date": "2024-11-15",
+          "condition": "Valid on pet food and accessories only",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon-code": "FREESHIPPETS",
+          "description": "Free shipping on orders over $50",
+          "expiry-date": "2024-11-30",
+          "condition": "No minimum order required",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop-Link": "https://petpals.com",
+      "category": "Pets",
+      "isSaleOn": true
+    },
+   {
+    "_id": "10",
+    "brand_name": "GreenEarth",
+    "rating": 4.3,
+    "description": "GreenEarth offers eco-friendly products for a sustainable lifestyle, from cleaning supplies to reusable bags.",
+    "brand_logo": "https://example.com/logos/greenearth.png",
+    "coupons": [
+      {
+        "coupon-code": "GREEN10",
+        "description": "Get 10% off all eco-friendly products",
+        "expiry-date": "2024-11-30",
+        "condition": "Valid on all eco-friendly products",
+        "coupon_type": "Percentage"
+      },
+      {
+        "coupon-code": "FREESUSTAINABLE",
+        "description": "Free sustainable shopping bag with every order over $50",
+        "expiry-date": "2024-12-05",
+        "condition": "Order must total $50 or more",
+        "coupon_type": "Gift"
+      }
+    ],
+    "shop-Link": "https://greenearth.com",
+    "category": "Eco-Friendly",
+    "isSaleOn": false
+  },
+  {
+    "_id": "11",
+    "brand_name": "TechieToys",
+    "rating": 4.6,
+    "description": "TechieToys offers cutting-edge toys that combine learning and fun, including robotic kits, coding games, and more.",
+    "brand_logo": "https://example.com/logos/techietoys.png",
+    "coupons": [
+      {
+        "coupon-code": "TOYTECH15",
+        "description": "Save 15% on all tech toys",
+        "expiry-date": "2024-11-25",
+        "condition": "Valid on all tech toys only",
+        "coupon_type": "Percentage"
+      },
+      {
+        "coupon-code": "FREEDELIVERYTOYS",
+        "description": "Free delivery on orders over $30",
+        "expiry-date": "2024-12-01",
+        "condition": "No minimum order required",
+        "coupon_type": "Free Shipping"
+      }
+    ],
+    "shop-Link": "https://techietoys.com",
+    "category": "Toys & Learning",
+    "isSaleOn": true
+  },
+  {
+    "_id": "12",
+    "brand_name": "FitTech",
+    "rating": 4.8,
+    "description": "FitTech offers smart fitness devices, wearable trackers, and health monitoring gadgets to keep you in peak shape.",
+    "brand_logo": "https://example.com/logos/fittech.png",
+    "coupons": [
+      {
+        "coupon-code": "FITTECH20",
+        "description": "Save 20% on all smart fitness trackers",
+        "expiry-date": "2024-11-30",
+        "condition": "Valid on fitness trackers only",
+        "coupon_type": "Percentage"
+      },
+      {
+        "coupon-code": "FREESHIPFIT",
+        "description": "Free shipping on all orders over $75",
+        "expiry-date": "2024-12-10",
+        "condition": "No minimum order required",
+        "coupon_type": "Free Shipping"
+      }
+    ],
+    "shop-Link": "https://fittech.com",
+    "category": "Fitness",
+    "isSaleOn": false
+  },
+  {
+    "_id": "13",
+    "brand_name": "PetPalace",
+    "rating": 4.4,
+    "description": "PetPalace offers high-quality pet foods, grooming products, and accessories for your pets.",
+    "brand_logo": "https://example.com/logos/petpalace.png",
+    "coupons": [
+      {
+        "coupon-code": "PALACE10",
+        "description": "Get 10% off your first pet food order",
+        "expiry-date": "2024-12-15",
+        "condition": "For new customers only",
+        "coupon_type": "Percentage"
+      },
+      {
+        "coupon-code": "FREESHIPPETPALACE",
+        "description": "Free shipping on all orders over $50",
+        "expiry-date": "2024-11-30",
+        "condition": "No minimum order required",
+        "coupon_type": "Free Shipping"
+      }
+    ],
+    "shop-Link": "https://petpalace.com",
+    "category": "Pets",
+    "isSaleOn": true
+  },
+  {
+    "_id": "14",
+    "brand_name": "ArtistryLab",
+    "rating": 4.7,
+    "description": "ArtistryLab offers premium art supplies, from paints to brushes, for professional and hobbyist artists.",
+    "brand_logo": "https://example.com/logos/artistrylab.png",
+    "coupons": [
+      {
+        "coupon-code": "ART10",
+        "description": "Save 10% on all art supplies",
+        "expiry-date": "2024-12-01",
+        "condition": "Valid on art supplies only",
+        "coupon_type": "Percentage"
+      },
+      {
+        "coupon-code": "FREESHIPART",
+        "description": "Free shipping on orders over $40",
+        "expiry-date": "2024-11-30",
+        "condition": "Valid on orders above $40",
+        "coupon_type": "Free Shipping"
+      }
+    ],
+    "shop-Link": "https://artistrylab.com",
+    "category": "Art & Craft",
+    "isSaleOn": true
+  }
+]
+  
