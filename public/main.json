@@ -1,10 +1,10 @@
 [
     {
       "_id": "1",
-      "brand_name": "GadgetHub",
+      "brand_name": "Aarong",
       "rating": 4.6,
-      "description": "GadgetHub offers cutting-edge gadgets and accessories for tech enthusiasts.",
-      "brand_logo": "https://example.com/logos/gadgethub.png",
+      "description": "Its a clothing brand with hand work and hand-print mainly",
+      "brand_logo": "https://i.ibb.co.com/x3D7Htp/Screenshot-2024-11-19-141346.png",
       "coupons": [
         {
           "coupon-code": "GADGET20",
@@ -27,10 +27,10 @@
     },
     {
       "_id": "2",
-      "brand_name": "CozyHome",
+      "brand_name": "Yellow",
       "rating": 4.3,
-      "description": "CozyHome offers premium bedding, furniture, and home accessories to make your home truly cozy.",
-      "brand_logo": "https://example.com/logos/cozyhome.png",
+      "description": "Clothing brand with winter collection always happy life.",
+      "brand_logo": "https://i.ibb.co.com/R3V9rvK/Screenshot-2024-11-19-141407.png",
       "coupons": [
         {
           "coupon-code": "COZY15",
@@ -53,10 +53,10 @@
     },
     {
       "_id": "3",
-      "brand_name": "OutdoorsPro",
+      "brand_name": "Daraz",
       "rating": 4.8,
-      "description": "OutdoorsPro is your go-to destination for outdoor gear, camping equipment, and adventure essentials.",
-      "brand_logo": "https://example.com/logos/outdoorspro.png",
+      "description": "Best online platform get your product at home where you are.",
+      "brand_logo": "https://i.ibb.co.com/dB5b2gF/Screenshot-2024-11-19-141448.png",
       "coupons": [
         {
           "coupon-code": "CAMP10",
@@ -79,10 +79,10 @@
     },
     {
       "_id": "4",
-      "brand_name": "SmartFoods",
+      "brand_name": "RichMan",
       "rating": 4.2,
-      "description": "SmartFoods brings healthy snacks, organic foods, and meal kits to your door.",
-      "brand_logo": "https://example.com/logos/smartfoods.png",
+      "description": "Mens clothing brands with all types of clothes and other.",
+      "brand_logo": "https://i.ibb.co.com/xhZR0GK/Screenshot-2024-11-19-141611.png",
       "coupons": [
         {
           "coupon-code": "SMART10",
@@ -107,8 +107,8 @@
       "_id": "5",
       "brand_name": "KidsJoy",
       "rating": 4.4,
-      "description": "KidsJoy offers educational toys, games, and books for children of all ages.",
-      "brand_logo": "https://example.com/logos/kidsjoy.png",
+      "description": "GadgetHub offers cutting-edge gadgets and accessories.",
+      "brand_logo": "https://i.ibb.co.com/1sdX6Zh/Screenshot-2024-11-19-141641.png",
       "coupons": [
         {
           "coupon-code": "JOY15",
@@ -133,8 +133,8 @@
       "_id": "6",
       "brand_name": "BeautyGlow",
       "rating": 4.5,
-      "description": "BeautyGlow offers high-quality skincare, makeup, and beauty products to make you shine.",
-      "brand_logo": "https://example.com/logos/beautyglow.png",
+      "description": "Best beauty product for your healthy skin smile face.",
+      "brand_logo": "https://i.ibb.co.com/ZBMRYMy/Screenshot-2024-11-19-141545.png",
       "coupons": [
         {
           "coupon-code": "GLOW25",
@@ -157,10 +157,10 @@
     },
     {
       "_id": "7",
-      "brand_name": "AutoStyle",
+      "brand_name": "Apex",
       "rating": 4.1,
-      "description": "AutoStyle offers automotive accessories, car parts, and tools for every car enthusiast.",
-      "brand_logo": "https://example.com/logos/autostyle.png",
+      "description": "here is your shoe.Get the best one in best price.",
+      "brand_logo": "https://i.ibb.co.com/7NL98xh/Screenshot-2024-11-19-141752.png",
       "coupons": [
         {
           "coupon-code": "AUTO10",
@@ -183,10 +183,10 @@
     },
     {
       "_id": "8",
-      "brand_name": "PetPals",
+      "brand_name": "Sailor",
       "rating": 4.9,
-      "description": "PetPals offers everything for your furry friends, from food and toys to grooming supplies.",
-      "brand_logo": "https://example.com/logos/petpals.png",
+      "description": "Ready to wear, its urgent come and take and enjoy.",
+      "brand_logo": "https://i.ibb.co.com/vsY2RwG/Screenshot-2024-11-19-141247.png",
       "coupons": [
         {
           "coupon-code": "PALS15",
@@ -211,8 +211,8 @@
     "_id": "10",
     "brand_name": "GreenEarth",
     "rating": 4.3,
-    "description": "GreenEarth offers eco-friendly products for a sustainable lifestyle, from cleaning supplies to reusable bags.",
-    "brand_logo": "https://example.com/logos/greenearth.png",
+    "description": "GreenEarth offers eco-friendly products for a sustainable lifestyle.",
+    "brand_logo": "https://i.ibb.co.com/2Y5V6m8/Screenshot-2024-11-19-141005.png",
     "coupons": [
       {
         "coupon-code": "GREEN10",
@@ -237,8 +237,8 @@
     "_id": "11",
     "brand_name": "TechieToys",
     "rating": 4.6,
-    "description": "TechieToys offers cutting-edge toys that combine learning and fun, including robotic kits, coding games, and more.",
-    "brand_logo": "https://example.com/logos/techietoys.png",
+    "description": "TechieToys offers cutting-edge toys that combine.",
+    "brand_logo": "https://i.ibb.co.com/10drM0B/Screenshot-2024-11-19-141146.png",
     "coupons": [
       {
         "coupon-code": "TOYTECH15",
@@ -263,8 +263,8 @@
     "_id": "12",
     "brand_name": "FitTech",
     "rating": 4.8,
-    "description": "FitTech offers smart fitness devices, wearable trackers, and health monitoring gadgets to keep you in peak shape.",
-    "brand_logo": "https://example.com/logos/fittech.png",
+    "description": "FitTech offers smart fitness devices, wearable trackers.",
+    "brand_logo": "https://i.ibb.co.com/BrTRxFV/Screenshot-2024-11-19-141029.png",
     "coupons": [
       {
         "coupon-code": "FITTECH20",
@@ -287,10 +287,10 @@
   },
   {
     "_id": "13",
-    "brand_name": "PetPalace",
+    "brand_name": "Cats Eye",
     "rating": 4.4,
-    "description": "PetPalace offers high-quality pet foods, grooming products, and accessories for your pets.",
-    "brand_logo": "https://example.com/logos/petpalace.png",
+    "description": "Cats Eye give you the latest combo of couples always.",
+    "brand_logo": "https://i.ibb.co.com/M8TKV0x/Screenshot-2024-11-19-141202.png",
     "coupons": [
       {
         "coupon-code": "PALACE10",
@@ -313,10 +313,10 @@
   },
   {
     "_id": "14",
-    "brand_name": "ArtistryLab",
+    "brand_name": "Le Nova",
     "rating": 4.7,
-    "description": "ArtistryLab offers premium art supplies, from paints to brushes, for professional and hobbyist artists.",
-    "brand_logo": "https://example.com/logos/artistrylab.png",
+    "description": "It offers the export quality things thats make your life easy.",
+    "brand_logo": "https://i.ibb.co.com/vXWwtKP/Screenshot-2024-11-19-141321.png",
     "coupons": [
       {
         "coupon-code": "ART10",

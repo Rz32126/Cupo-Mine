@@ -1,6 +1,8 @@
 import Banner from "./Banner";
 import Brands from "./Brands";
 import Header from "./Header";
+import MainLayout from "./MainLayout";
+import Navbar from "./Navbar";
 
 
 
@@ -12,8 +14,10 @@ const Home = () => {
            </header> 
            <section><Brands></Brands></section>
            <section className="mt-5"><Banner></Banner></section>
-           <nav></nav>
-           <main></main>
+           <nav><Navbar></Navbar></nav>
+           <main>
+            <MainLayout></MainLayout>
+           </main>
         </div>
     );
 };

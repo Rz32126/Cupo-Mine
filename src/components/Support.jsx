@@ -2,7 +2,7 @@
 
 const Support = () => {
     return (
-        <div className="font-semibold text-2xl text-center">
+        <div className="font-semibold text-2xl text-center bg-lime-200 w-11/12 mx-auto mt-7">
           <h1>If you face any problem to login or other feel free to ask here any question.</h1>
           <p>We have 24 hours support team</p> 
           <p>Contact us</p> 
