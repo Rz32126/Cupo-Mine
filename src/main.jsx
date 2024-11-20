@@ -10,6 +10,13 @@ import Error from './components/Error';
 import Support from './components/Support';
 import Pages from './components/Pages';
 import Blogs from './components/Blogs';
+import AuthLayout from './components/AuthLayout';
+import Login from './components/Login';
+import Register from './components/Register';
+import AuthProvider from './provider/AuthProvider';
+import CardDetails from './components/CardDetails';
+import Winter from './components/Winter';
+
 
 const router = createBrowserRouter([
   {
@@ -18,9 +25,14 @@ const router = createBrowserRouter([
     loader: () => fetch('../main.json'),
     children: [
       {
-       
+      
       }
     ]
+  },
+  {
+    path: "/details/:id",
+    element: <CardDetails></CardDetails>,
+    loader: () => fetch('../main.json'),
   },
   {
     path: "/support",
@@ -38,10 +50,31 @@ const router = createBrowserRouter([
     path: "*",
     element: <Error></Error>,
   },
+  {
+    path: "auth",
+    element: <AuthLayout></AuthLayout>,
+    children: [
+      {
+        path: "/auth/login",
+        element: <Login></Login>
+      },
+      {
+        path: "/auth/register",
+        element: <Register></Register>
+      },
+      {
+        path: "/auth/winter",
+        element: <Winter></Winter>
+      }
+    ]
+  },
+  
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+     <AuthProvider>
+        <RouterProvider router={router} />
+     </AuthProvider>
   </StrictMode>,
 )

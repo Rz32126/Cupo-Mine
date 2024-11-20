@@ -27,23 +27,23 @@
 //     "isSaleOn": true
 // }
 
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const CouponCard = ({ data }) => {
     console.log(data)
-  const [isSaleOn] = useState(true); // Sale status, assuming it's true
-  const isLoggedIn = false; // Simulated login status, set it based on your authentication logic
-  const navigate = useNavigate();
+  // const [isSaleOn] = useState(true); // Sale status, assuming it's true
+  // const isLoggedIn = false; // Simulated login status, set it based on your authentication logic
+  // const navigate = useNavigate();
 
   // Handle coupon click (redirects user based on login status)
-  const handleCouponClick = () => {
-    if (isLoggedIn) {
-      navigate("/brand-details"); // Redirect to brand details page if logged in
-    } else {
-      navigate("/login"); // Redirect to login page if not logged in
-    }
-  };
+  // const handleCouponClick = () => {
+  //   if (isLoggedIn) {
+  //     navigate("/brand-details"); // Redirect to brand details page if logged in
+  //   } else {
+  //     navigate("/login"); // Redirect to login page if not logged in
+  //   }
+  // };
 
   return (
     <div className="card w-10/12 mx-auto bg-yellow-100 shadow-xl rounded-lg p-4 relative mb-3">
@@ -51,20 +51,19 @@ const CouponCard = ({ data }) => {
         <img
           src={data.brand_logo}
           alt=""
-          className="w-16 h-16 rounded-md ml-20"
+          className="w-16 h-16 rounded-md lg:ml-20"
         />
-        <div className="mr-44">
+        <div className="lg:mr-44">
           <h1 className="font-bold text-red-600 mt-5">{data.brand_name}</h1>
           <h2 className="font-semibold mt-2 mr-7">{data.description}</h2>
-         <button
-            onClick={handleCouponClick}
+         <Link to={`/details/${data._id}`}
             className="mt-6 btn bg-orange-600">
           View Coupons
-        </button>
+        </Link>
         </div>
       </div>
 
-      <p className="ml-20 font-bold text-xl text-red-700">
+      <p className="lg:ml-20 font-bold text-xl text-red-700">
       {data.brand_name}
       </p>
       <div className=" text-black ml-20">
@@ -73,11 +72,11 @@ const CouponCard = ({ data }) => {
      </div>
     
 
-      {isSaleOn && (
+      {/* {isSaleOn && (
         <div className="absolute top-10 right-6 bg-sky-600 text-white px-4 py-2 rounded-full animate-bounce">
           Sale is On!
         </div>
-      )}
+      )} */}
     </div>
   );
 };
