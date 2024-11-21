@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../provider/AuthProvider";
+import { FaRegEyeSlash } from "react-icons/fa";
 
 
 const Login = () => {
@@ -41,7 +42,7 @@ const Login = () => {
         </div>
         <div className="form-control">
           <label className="label">
-            <span className="label-text">Password</span>
+            <span className="label-text">Password<FaRegEyeSlash /></span>
           </label>
           <input name="password" type="password" placeholder="password" className="input input-bordered" required />
           {
@@ -50,7 +51,7 @@ const Login = () => {
           </label>
           }
           <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+            <Link to="/auth/forget " className="label-text-alt link link-hover">Forgot password?</Link>
           </label>
         </div>
         <div className="form-control mt-6">

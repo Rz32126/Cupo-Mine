@@ -17,6 +17,7 @@ import AuthProvider from './provider/AuthProvider';
 import CardDetails from './components/CardDetails';
 import Winter from './components/Winter';
 import PrivetRoute from './components/PrivetRoute';
+import Forget from './components/Forget';
 
 
 const router = createBrowserRouter([
@@ -59,7 +60,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/auth/login",
-        element: <Login></Login>
+        element: <Login></Login>,
       },
       {
         path: "/auth/register",
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
       {
         path: "/auth/winter",
         element: <Winter></Winter>
+      },
+      {
+        path: "/auth/forget",
+        element: <Forget></Forget>
       }
     ]
   },
