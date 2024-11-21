@@ -16,6 +16,7 @@ import Register from './components/Register';
 import AuthProvider from './provider/AuthProvider';
 import CardDetails from './components/CardDetails';
 import Winter from './components/Winter';
+import PrivetRoute from './components/PrivetRoute';
 
 
 const router = createBrowserRouter([
@@ -30,9 +31,11 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: "/details/:_id",
-    element: <CardDetails></CardDetails>,
-    loader: () => fetch('../main.json'),
+    path: "/details/:id",
+    element: <PrivetRoute>
+      <CardDetails></CardDetails>
+    </PrivetRoute>,
+    loader: () => fetch('/main.json'),
   },
   {
     path: "/support",
