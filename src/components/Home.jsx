@@ -6,12 +6,15 @@ import MainLayout from "./MainLayout";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import NewAdded from "./NewAdded";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
 const Home = () => {
     return (
         <div className="w-11/12 mx-auto mt-4">
+            <ToastContainer />
            <header>
             <Header></Header>
            </header> 

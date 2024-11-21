@@ -40,10 +40,9 @@ const CardDetails = () => {
                     <h2 className="card-title">{singleData.brand_name}</h2> 
                     <p>{singleData.description}</p> 
                     <div className="card-actions">
-                        <div>
-                            <p className='mr-6'>rating: {singleData.rating}</p>
-                        </div>
-                        <button className="btn bg-sky-500">Buy Now</button>
+                        <p className='btn'>Code 1: GADGET20</p>
+                        <p className='btn'>Code 2: REESHIpGADGET</p>
+                        <button className="btn bg-sky-500">Get Code</button>
                         <NavLink className="btn bg-red-500" to="/">Back to Home</NavLink>
                     </div>
                 </div>
