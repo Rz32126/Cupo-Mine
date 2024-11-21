@@ -1,6 +1,6 @@
 Get Your Best Deal Coupon
 
-live Link: 
+live Link: "http/firebase.coupon.com"
 
 This template provides a useful processing to get your best deal coupon.
 
