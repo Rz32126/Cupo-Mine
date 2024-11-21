@@ -12,7 +12,13 @@ const Navbar = () => {
             user && user?.email ? <button onClick={logOut} className="btn bg-green-500 font-semibold text-white">Log-Out</button> : <Link to="/auth/login" className="btn bg-green-500 font-semibold text-white"><CiLogin />Login Here</Link>
            } 
            <Link to="/auth/register" className="btn bg bg-green-500 font-semibold text-white">Register Here</Link> 
-           <div>{user && user.email}</div>
+           <div>
+            {}
+            {user && user?.email ? <div>
+                <img className="w-10 rounded-full" src={user?.photoURL} alt="" />
+                <p className="font-semibold ml-2">{user.displayName}</p>
+            </div> : ""} 
+            </div>
         </div>
     );
 };

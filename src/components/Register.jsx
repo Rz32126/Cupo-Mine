@@ -1,12 +1,13 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../provider/AuthProvider";
 import { FaGoogle } from "react-icons/fa6";
 
 
 const Register = () => {  
 
-    const {createNewUser,setUser} = useContext(AuthContext);
+    const { createNewUser, setUser, updateUserProfile } = useContext(AuthContext);
+    const navigate = useNavigate();
 
     const [error,setError] = useState({});
 
@@ -22,12 +23,18 @@ const Register = () => {
           setError({...error , password:"Password must be more than 6 character"});
           return;
         }
-        console.log({name, email ,photo ,password});
+        // console.log({name, email ,photo ,password});
 
         createNewUser(email,password)
         .then((result) => {
             const user = result.user;
             setUser(user);
+            updateUserProfile({ displayName: name , photoURL: photo })
+            .then(()=>{
+                navigate("/");
+            }).catch(err => {
+              console.log(err);
+            })
             console.log(user)
             
         })
