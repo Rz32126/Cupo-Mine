@@ -5,6 +5,7 @@ import Header from "./Header";
 import MainLayout from "./MainLayout";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import NewAdded from "./NewAdded";
 
 
 
@@ -21,6 +22,9 @@ const Home = () => {
             <Outlet></Outlet>
             <MainLayout></MainLayout>
            </main>
+           <section>
+            <NewAdded></NewAdded>
+           </section>
            <footer>
             <Footer></Footer>
            </footer>

@@ -1,8 +1,9 @@
-import { useLoaderData } from "react-router-dom";
+import { NavLink, useLoaderData } from "react-router-dom";
 import CouponCard from "./CouponCard";
 
 
 const Cards = () => {
+   
     const data = useLoaderData()
     
     return (
@@ -12,6 +13,7 @@ const Cards = () => {
             {
               data.map((singleData) => (<CouponCard key={singleData._id} data={singleData}></CouponCard>))
             }
+
           </div>
         </div>
     );
