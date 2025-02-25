@@ -1,7 +1,3 @@
-
-
-
-
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useLoaderData, NavLink } from 'react-router-dom';
